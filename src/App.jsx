@@ -1,9 +1,20 @@
-import React from 'react'
+import { BrowserRouter as Router } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import AppRoutes from "./router";
 
-const App = () => {
+function App() {
   return (
-    <div className='border px-10 py-10'>Hello</div>
-  )
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <AppRoutes />
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
