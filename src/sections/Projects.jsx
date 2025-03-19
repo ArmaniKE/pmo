@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const Projects = () => {
   return (
-    <div class='border py-10 px-10 h-100'>Projects</div>
-  )
-}
+    <div class="mt-[150px] px-[80px] space-y-[40px]">
+      <div className="flex items-center gap-10">
+        <div className="border-t-4 border-[#002F6C] flex-grow" />
+        <span className="text-5xl font-semibold text-[#002F6C]">
+          Наши проекты
+        </span>
+        <div className="border-t-4 border-[#002F6C] flex-grow" />
+      </div>
+    </div>
+  );
+};
 
-export default Projects
+export default Projects;

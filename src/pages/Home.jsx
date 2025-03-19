@@ -8,7 +8,7 @@ import Contact from "../sections/Contact";
 
 function Home() {
   return (
-    <>
+    <div>
       <Hero />
       <About />
       <Services />
@@ -16,7 +16,7 @@ function Home() {
       <Tools />
       <WorkProcess />
       <Contact />
-    </>
+    </div>
   );
 }
 
