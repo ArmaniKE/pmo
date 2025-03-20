@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="px-[80px] mt-[210px] flex">
-      <div className="w-[50%] py-10 px-6 flex-col space-y-[40px]">
+      <div className="w-[50%] py-10 px-6 flex-col content-center space-y-[40px]">
         <div className="self-stretch justify-start">
           <span class="text-black text-5xl font-semibold">
             Управляем проектами — создаем{" "}

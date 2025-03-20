@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-[150px] px-[80px] space-y-[40px]">
+    <div className="mt-[150px] px-[80px] space-y-[60px]">
       <div className="flex items-center gap-10">
         <div className="border-t-4 border-[#002F6C] flex-grow" />
         <span className="text-5xl font-semibold text-[#002F6C]">О нас</span>
@@ -77,6 +77,7 @@ const About = () => {
                 обладающие практическим опытом реализации проектов различной
                 сложности
               </div>
+              <img src="/about/group3.svg" className="absolute h-45 opacity-6"/>
               {/* <div className="w-80 h-80 left-[64px] top-[-74px] absolute opacity-5">
                 <div className="w-80 h-52 left-0 top-[51.33px] absolute bg-[#002F6C]" />
               </div> */}
@@ -92,6 +93,7 @@ const About = () => {
               <div className="flex-1 flex justify-start items-start gap-5">
                 <div className="flex-1 h-24 p-7 bg-white rounded-[10px] flex justify-center items-center gap-2.5">
                   <div className="text-center justify-start">
+                    <img src="/about/mark.svg" className="absolute opacity-8 h-40 mt-[-140px]"/>
                     <span class="text-[#002F6C] text-xl font-semibold">
                       2023 г. -{" "}
                     </span>
@@ -111,6 +113,7 @@ const About = () => {
               <div className="flex-1 flex justify-start items-start gap-5">
                 <div className="flex-1 h-24 p-7 bg-white rounded-[10px] flex justify-center items-center gap-2.5">
                   <div className="text-center justify-start">
+                    <img src="/about/mark.svg" className="absolute opacity-8 h-40 mt-[-140px]"/>
                     <span class="text-[#002F6C] text-xl font-semibold">
                       2024 г. -{" "}
                     </span>
