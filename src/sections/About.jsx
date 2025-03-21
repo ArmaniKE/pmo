@@ -2,10 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-[130px] px-[80px] space-y-[60px]">
+    <div className="mt-[130px] px-[80px] space-y-[50px]">
       <div className="flex items-center gap-10">
         <div className="border-t-3 border-[#002F6C] flex-grow" />
-        <span className="text-[64px] font-semibold text-[#002F6C]">О нас</span>
+        <span className="text-5xl font-semibold text-[#002F6C]">О нас</span>
         <div className="border-t-3 border-[#002F6C] flex-grow" />
       </div>
       <div className="w-full p-[40px] bg-[#002F6C] rounded-[20px] shadow-lg">

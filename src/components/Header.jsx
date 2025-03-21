@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 w-full h-[130px] px-[80px] flex justify-between items-center bg-[#F2F2F2]">
       <img className="h-18" src="/header/logo1.svg" />
-      <div className="flex text-xl justify-center items-center space-x-[80px]">
+      <div className="flex text-xl justify-center items-center space-x-20">
         <div>О нас</div>
         <div>Проекты</div>
         <div>Контакты</div>
