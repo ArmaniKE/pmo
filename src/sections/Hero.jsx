@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="px-[80px] mt-[150px] flex">
+    <div className="px-[80px] mt-[200px] flex">
       <div className="w-[50%] px-6 flex-col content-center space-y-[40px]">
         <div className="leading-6">
           <span className="text-black text-5xl font-semibold">
@@ -26,11 +26,17 @@ const Hero = () => {
           максимальной эффективностью, используя современные подходы проектного
           управления
         </div>
-        <div className="w-48 h-11 p-2 bg-[#002F6C] rounded-lg inline-flex justify-center items-center overflow-hidden">
-          <button className="text-center text-white text-md font-semibold cursor-pointer">
+        <button className="group relative flex items-center justify-center w-[300px] px-6 py-3 bg-[#002F6C] hover:bg-[#002F7C] text-white text-lg font-semibold rounded-lg transition-all duration-300 overflow-hidden cursor-pointer">
+          <span className="flex items-center gap-2 transition-all duration-300 group-hover:translate-x-[-10px]">
             Связаться с нами
-          </button>
-        </div>
+          </span>
+          <span className="absolute flex items-center gap-2 opacity-0 translate-x-2 scale-100 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:scale-100">
+            <img
+              src="/hero/arrow.svg" 
+              className="w-3 h-3 transition-all duration-300 ml-38"
+            />
+          </span>
+        </button>
       </div>
       <div className="w-[50%] p-8 flex justify-center">
         <video

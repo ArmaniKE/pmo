@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="mt-[150px] px-[80px] space-y-[40px]">
+    <div className="mt-[200px] px-[80px] space-y-[40px]">
       <div className="flex items-center gap-10">
         <div className="border-t-3 border-[#002F6C] flex-grow" />
         <span className="text-4xl font-semibold text-[#002F6C]">Контакты</span>
@@ -41,26 +41,26 @@ const Contact = () => {
             <input
               type="text"
               placeholder="Имя"
-              className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400"
-            />
+              className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300"
+              />
             <input
               type="email"
               placeholder="Email"
-              className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400"
+              className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300"
             />
           </div>
           <div className="grid grid-cols-2 gap-4">
             <textarea
               placeholder="Комментарий"
-              className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 resize-none"
+              className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300 resize-none"
             />
             <div className="grid grid-rows-2 gap-4">
               <input
                 type="tel"
                 placeholder="Телефон"
-                className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400"
+                className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300"
               />
-              <button className="w-full p-4 bg-[#002F6C] text-white font-semibold rounded-xl cursor-pointer">
+              <button className="w-full p-4 bg-[#002F6C] hover:bg-[#002f7c] transition-colors duration-300 text-white font-semibold rounded-xl cursor-pointer">
                 Отправить
               </button>
             </div>
