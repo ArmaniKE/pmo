@@ -2,15 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div class="mt-[150px] px-[80px] space-y-[40px]">
+    <div className="mt-[150px] px-[80px] space-y-[40px]">
       <div className="flex items-center gap-10">
         <div className="border-t-3 border-[#002F6C] flex-grow" />
-        <span className="text-4xl font-semibold text-[#002F6C]">
-          Контакты
-        </span>
+        <span className="text-4xl font-semibold text-[#002F6C]">Контакты</span>
         <div className="border-t-3 border-[#002F6C] flex-grow" />
       </div>
-      <img src="/contacts/plane.svg" className="absolute w-[80%] h-[75.7%]" />
       <div className="w-full rounded-2xl bg-white p-6 flex flex-row mr-10 shadow-lg">
         <div className="rounded-2xl bg-[#002F6C] p-10 w-[70%] text-white space-y-10 z-10">
           <div className="text-center text-[45px] font-semibold">
@@ -69,13 +66,11 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        <img src="/contacts/plane.svg" className="absolute h-120 w-[80%] mt-[-35px] ml-[-35px]"/>
       </div>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.8059332113116!2d76.9406866261559!3d43.25548892112383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836fb1fd99714f%3A0xb14acabfcaa5120f!2z0JrQsNC30LDRhdGB0YLQsNC90YHQutC-LdCR0YDQuNGC0LDQvdGB0LrQuNC5INGC0LXRhdC90LjRh9C10YHQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgg!5e0!3m2!1sru!2skz!4v1742574785449!5m2!1sru!2skz"
         className="w-full h-120 rounded-xl shadow-lg"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
     </div>
   );

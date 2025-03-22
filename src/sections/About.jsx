@@ -10,10 +10,10 @@ const About = () => {
       </div>
       <div className="w-full p-[40px] bg-[#002F6C] rounded-[20px] shadow-lg">
         <div className="text-center">
-          <span class="text-white text-xl font-semibold">
+          <span className="text-white text-xl font-semibold">
             Проектный офис КБТУ
           </span>
-          <span class="text-white text-xl font-normal">
+          <span className="text-white text-xl font-normal">
             , основанный в 2022 году, был создан как внутреннее подразделение
             университета с целью <br /> внедрения и продвижения современных
             практик и подходов проектного управления в его деятельности.
@@ -64,7 +64,7 @@ const About = () => {
           управления проектами, их адаптация и интеграция в процессы проектной
           деятельности КБТУ для достижения новых высот в управлении проектами.
         </div>
-        <img src="/about/goal.svg" className="absolute h-100 ml-180 mt-3"/>
+        <img src="/about/goal.svg" className="absolute h-100 mt-3 end-0 mr-20"/>
       </div>
       <div className="w-full px-[70px] py-[35px] bg-[#002F6C] rounded-[20px] shadow-lg inline-flex flex-col justify-center items-center gap-3">
         <div className="self-stretch h-14 text-center text-white text-4xl font-semibold">
@@ -101,11 +101,11 @@ const About = () => {
                       src="/about/mark.svg"
                       className="absolute opacity-6 h-35 mt-[-116px]"
                     />
-                    <span class="text-[#002F6C] text-xl font-semibold">
+                    <span className="text-[#002F6C] text-xl font-semibold">
                       2023 г. -{" "}
                     </span>
-                    <span class="text-[#002F6C] text-xl font-black">10</span>
-                    <span class="text-[#002F6C] text-xl font-semibold">
+                    <span className="text-[#002F6C] text-xl font-black">10</span>
+                    <span className="text-[#002F6C] text-xl font-semibold">
                       {" "}
                       проектов{" "}
                     </span>
@@ -122,11 +122,11 @@ const About = () => {
                       src="/about/mark.svg"
                       className="absolute opacity-6 h-35 mt-[-116px]"
                     />
-                    <span class="text-[#002F6C] text-xl font-semibold">
+                    <span className="text-[#002F6C] text-xl font-semibold">
                       2024 г. -{" "}
                     </span>
-                    <span class="text-[#002F6C] text-xl font-black">15</span>
-                    <span class="text-[#002F6C] text-xl font-semibold">
+                    <span className="text-[#002F6C] text-xl font-black">15</span>
+                    <span className="text-[#002F6C] text-xl font-semibold">
                       {" "}
                       проектов{" "}
                     </span>
