@@ -32,7 +32,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="w-[50%] py-10 px-6">
+      <div className="w-[50%] p-8 flex justify-center">
         <video
           ref={videoRef}
           onMouseEnter={mouseEnter}
@@ -41,7 +41,7 @@ const Hero = () => {
           loop
           playsInline
           muted
-          className="rounded-2xl shadow-xl"
+          className="rounded-2xl shadow-xl w-150"
         >
           <source src="hero/hero.mp4" type="video/mp4" />
           Your browser does not support the video tag.
