@@ -2,10 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-[130px] px-[80px] space-y-[50px]">
+    <div id="about" className="mt-[130px] px-[80px] space-y-[50px]">
       <div className="flex items-center gap-10">
         <div className="border-t-3 border-[#002F6C] flex-grow" />
-        <span className="text-5xl font-semibold text-[#002F6C]">О нас</span>
+        <span className="text-4xl font-semibold text-[#002F6C]">О нас</span>
         <div className="border-t-3 border-[#002F6C] flex-grow" />
       </div>
       <div className="w-full p-[40px] bg-[#002F6C] rounded-[20px] shadow-lg">
@@ -64,7 +64,10 @@ const About = () => {
           управления проектами, их адаптация и интеграция в процессы проектной
           деятельности КБТУ для достижения новых высот в управлении проектами.
         </div>
-        <img src="/about/goal.svg" className="absolute h-100 mt-3 end-0 mr-20"/>
+        <img
+          src="/about/goal.svg"
+          className="absolute h-100 mt-3 end-0 mr-20"
+        />
       </div>
       <div className="w-full px-[70px] py-[35px] bg-[#002F6C] rounded-[20px] shadow-lg inline-flex flex-col justify-center items-center gap-3">
         <div className="self-stretch h-14 text-center text-white text-4xl font-semibold">
@@ -104,7 +107,9 @@ const About = () => {
                     <span className="text-[#002F6C] text-xl font-semibold">
                       2023 г. -{" "}
                     </span>
-                    <span className="text-[#002F6C] text-xl font-black">10</span>
+                    <span className="text-[#002F6C] text-xl font-black">
+                      10
+                    </span>
                     <span className="text-[#002F6C] text-xl font-semibold">
                       {" "}
                       проектов{" "}
@@ -125,7 +130,9 @@ const About = () => {
                     <span className="text-[#002F6C] text-xl font-semibold">
                       2024 г. -{" "}
                     </span>
-                    <span className="text-[#002F6C] text-xl font-black">15</span>
+                    <span className="text-[#002F6C] text-xl font-black">
+                      15
+                    </span>
                     <span className="text-[#002F6C] text-xl font-semibold">
                       {" "}
                       проектов{" "}

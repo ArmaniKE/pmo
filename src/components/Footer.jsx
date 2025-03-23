@@ -35,10 +35,43 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="flex text-xl font-semibold justify-center items-center space-x-20 mt-[-30px]">
-        <div>О нас</div>
-        <div>Проекты</div>
-        <div>Контакты</div>
+      <div className="flex text-xl justify-center items-center space-x-20">
+        <a
+          href="#about"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({
+              top: document.getElementById("about").offsetTop - 170,
+              behavior: "smooth",
+            });
+          }}
+        >
+          <div>О нас</div>
+        </a>
+        <a
+          href="#projects"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({
+              top: document.getElementById("projects").offsetTop - 170,
+              behavior: "smooth",
+            });
+          }}
+        >
+          <div>Проекты</div>
+        </a>
+        <a
+          href="#contacts"
+          onClick={(e) => {
+            e.preventDefault();
+            window.scrollTo({
+              top: document.getElementById("contacts").offsetTop - 170,
+              behavior: "smooth",
+            });
+          }}
+        >
+          <div>Контакты</div>
+        </a>
       </div>
       <div className="border-t-1 border-white py-2 flex gap-x-1 text-sm justify-center mt-11 text-[#D0D0D0]">
         <a href="" target="_blank">
