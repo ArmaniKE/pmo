@@ -35,7 +35,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="flex text-xl justify-center items-center space-x-20">
+      <div className="flex text-xl font-semibold justify-center items-center space-x-20 mt-[-30px]">
         <a
           href="#about"
           onClick={(e) => {
