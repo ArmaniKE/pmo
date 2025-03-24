@@ -1,7 +1,7 @@
 import React from "react";
 
 const Projects = () => {
-  // window.scrollTo(0, 0);
+  window.scrollTo(0, 0);
   return (
     <div className="px-[80px] mt-[130px] mb-100">
       <div className="mt-28 flex justify-between items-center gap-x-10 py-8">
