@@ -17,18 +17,28 @@ const Contact = () => {
           <div className="text-center text-[45px] font-semibold">
             {t("Контактная информация")}
           </div>
-          <div className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold mt-11">
+          <a
+            href="https://www.google.com/maps/place/%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%BE-%D0%91%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82/@43.2554889,76.9406866,17z/data=!4m10!1m2!2m1!1skbtu!3m6!1s0x38836fb1fd99714f:0xb14acabfcaa5120f!8m2!3d43.2552989!4d76.9432821!15sCgRrYnR1kgEKdW5pdmVyc2l0eeABAA!16s%2Fm%2F0cr578v!5m1!1e4?entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold mt-11"
+          >
             <img src="/contacts/geo.svg" className="h-8" />
             {t("улица Толе Би 59, Алматы 050000")}
-          </div>
-          <div className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold">
+          </a>
+          <a
+            href="tel:87273574251"
+            className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold"
+          >
             <img src="/contacts/call.svg" className="-8" />
             {t("8 727 357 42 51")}
-          </div>
-          <div className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold mb-6">
+          </a>
+          <a
+            href="mailto:info@kbtu.kz"
+            className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold mb-6"
+          >
             <img src="/contacts/mail.svg" className="-8" />
             {t("info@kbtu.kz")}
-          </div>
+          </a>
         </div>
         <div className="ml-8 mr-2 mt-10 space-y-4 w-full z-10">
           <div className="grid grid-cols-2 gap-4">
