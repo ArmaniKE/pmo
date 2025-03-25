@@ -1,67 +1,61 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div id="contacts" className="mt-[200px] px-[80px] space-y-[40px]">
       <div className="flex items-center gap-10">
         <div className="border-t-3 border-[#002F6C] flex-grow" />
-        <span className="text-4xl font-semibold text-[#002F6C]">Контакты</span>
+        <span className="text-4xl font-semibold text-[#002F6C]">
+          {t("Контакты")}
+        </span>
         <div className="border-t-3 border-[#002F6C] flex-grow" />
       </div>
       <div className="w-full rounded-2xl bg-white p-6 flex flex-row mr-10 shadow-lg">
         <div className="rounded-2xl bg-[#002F6C] p-10 w-[70%] text-white space-y-10 z-10">
           <div className="text-center text-[45px] font-semibold">
-            Контактная информация
+            {t("Контактная информация")}
           </div>
           <div className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold mt-11">
             <img src="/contacts/geo.svg" className="h-8" />
-            улица Толе Би 59, Алматы 050000
+            {t("улица Толе Би 59, Алматы 050000")}
           </div>
           <div className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold">
-            <img src="/contacts/call.svg" className="-8" />8 727 357 42 51
+            <img src="/contacts/call.svg" className="-8" />
+            {t("8 727 357 42 51")}
           </div>
           <div className="items-center ml-6 py-3 flex flex-row gap-x-5 text-lg font-semibold mb-6">
             <img src="/contacts/mail.svg" className="-8" />
-            info@kbtu.kz
+            {t("info@kbtu.kz")}
           </div>
         </div>
-        {/* <div className="border h-fit mt-10 ml-10 w-147 flex flex-row gap-x-6">
-          <div className="w-80 text-[#B7B7B7] space-y-5">
-            <input type="text" placeholder="Имя" className="bg-[#F3F3F3] rounded-xl py-4 px-5"/>
-            <textarea type="text" placeholder="Комментарий" className="bg-[#F3F3F3] rounded-xl py-4 px-5"/>
-          </div>
-          <div className="w-80 text-[#B7B7B7] space-y-5">
-            <input type="text" placeholder="Email" className="bg-[#F3F3F3] rounded-xl py-4 px-5"/>
-            <input type="text" placeholder="Телефон" className="bg-[#F3F3F3] rounded-xl py-4 px-5"/>
-            <button className="bg-[#002F6C] text-white text-center font-semibold rounded-xl py-4 px-5">Отправить</button>
-          </div>
-        </div> */}
         <div className="ml-8 mr-2 mt-10 space-y-4 w-full z-10">
           <div className="grid grid-cols-2 gap-4">
             <input
               type="text"
-              placeholder="Имя"
+              placeholder={t("Имя")}
               className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300"
             />
             <input
               type="email"
-              placeholder="Email"
+              placeholder={t("Email")}
               className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300"
             />
           </div>
           <div className="grid grid-cols-2 gap-4">
             <textarea
-              placeholder="Комментарий"
+              placeholder={t("Комментарий")}
               className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300 resize-none"
             />
             <div className="grid grid-rows-2 gap-4">
               <input
                 type="tel"
-                placeholder="Телефон"
+                placeholder={t("Телефон")}
                 className="w-full p-4 rounded-xl bg-gray-100 placeholder-gray-400 outline-none focus:ring-2 focus:ring-[#002F6C] transition-all duration-300"
               />
               <button className="w-full p-4 bg-[#002F6C] hover:bg-[#002f7c] transition-colors duration-300 text-white font-semibold rounded-xl cursor-pointer">
-                Отправить
+                {t("Отправить")}
               </button>
             </div>
           </div>

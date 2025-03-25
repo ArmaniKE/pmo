@@ -1,21 +1,22 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
   const navigate = useNavigate();
-
+  const { t } = useTranslation();
   return (
     <div id="projects" className="mt-[200px] px-[80px] space-y-[60px]">
       <div className="flex items-center gap-10">
         <div className="border-t-3 border-[#002F6C] flex-grow" />
         <span className="text-4xl font-semibold text-[#002F6C]">
-          Наши проекты
+          {t("Наши проекты")}
         </span>
         <div className="border-t-3 border-[#002F6C] flex-grow" />
       </div>
       <div className="flex">
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl h-fit p-3 text-center flex items-center justify-center text-[#002F6C] text-[38px] font-semibold">
-          Аналитическая цифровая платформа «Умная ферма» ​
+          {t("Аналитическая цифровая платформа «Умная ферма»")}
         </div>
         <img
           className="w-[8%] h-fit mt-[3.5%]"
@@ -34,12 +35,12 @@ const Projects = () => {
           src="/projects/arrow-right.svg"
         />
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl p-3 text-center flex items-center text-[#002F6C] text-[38px] font-semibold">
-          Система ориентации (навигации) в здании КБТУ
+          {t("Система ориентации (навигации) в здании КБТУ")}
         </div>
       </div>
       <div className="flex mt-22">
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl h-fit p-3 text-center flex items-center justify-center text-[#002F6C] text-[38px] font-semibold">
-          Разработка “Цифровой платформы прослеживания семян”
+          {t("Разработка “Цифровой платформы прослеживания семян”")}
         </div>
         <img
           className="w-[8%] h-fit mt-[3.5%]"
@@ -58,14 +59,14 @@ const Projects = () => {
           src="/projects/arrow-right.svg"
         />
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl p-3 text-center flex items-center text-[#002F6C] text-[38px] font-semibold">
-          Онлайн курс и хакатон по геймификации в партнёрстве ЮНИСЕФ
+          {t("Онлайн курс и хакатон по геймификации в партнёрстве ЮНИСЕФ")}
         </div>
       </div>
       <button
         className="border-4 border-[#002F6C] hover:bg-[#002F6C] hover:text-white rounded-2xl py-4 px-18 text-[#002F6C] text-xl font-semibold cursor-pointer transition-colors duration-300"
         onClick={() => navigate("/projects")}
       >
-        Подробнее
+        {t("Подробнее")}
       </button>
     </div>
   );

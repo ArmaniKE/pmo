@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { MessageSquare, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Fab = () => {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="fixed bottom-5 right-5 flex flex-col items-end gap-2 z-1000">
@@ -13,7 +15,7 @@ const Fab = () => {
           className="flex items-center gap-2 bg-white text-black text-sm px-4 py-2 rounded-full shadow-md transition"
         >
           <img src="fba/tg.svg" className="h-5" />
-          <span>Написать в Telegram</span>
+          <span>{t("Написать в Telegram")}</span>
         </a>
       )}
       <button

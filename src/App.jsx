@@ -1,5 +1,4 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import Footer from "./components/Footer";
 import AppRoutes from "./router";
 import Fab from "./components/Fab";
 

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const languages = [
   { value: "ru", label: "RU" },
@@ -7,8 +8,16 @@ const languages = [
 ];
 
 const Lang = () => {
+  const { i18n } = useTranslation();
   const [selected, setSelected] = useState("RU");
   const [isOpen, setIsOpen] = useState(false);
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    setSelected(lang.toUpperCase());
+    setIsOpen(false);
+  };
+
   return (
     <div
       className="relative w-18 z-100 mr-[20px]"
@@ -32,10 +41,7 @@ const Lang = () => {
                 <div
                   key={lang.value}
                   className="hover:bg-[#e7e7e7] h-9 flex justify-center items-center rounded-md"
-                  onClick={() => {
-                    setSelected(lang.label);
-                    setIsOpen(false);
-                  }}
+                  onClick={() => changeLanguage(lang.value)}
                 >
                   {lang.label}
                 </div>
