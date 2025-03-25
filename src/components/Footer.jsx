@@ -36,8 +36,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex text-xl font-semibold justify-center items-center space-x-20 mt-[-30px]">
-        <a
-          href="#about"
+        <Link
+          to="/about"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({
@@ -47,9 +47,9 @@ const Footer = () => {
           }}
         >
           <div>О нас</div>
-        </a>
-        <a
-          href="#projects"
+        </Link>
+        <Link
+          to="/projects"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({
@@ -59,9 +59,9 @@ const Footer = () => {
           }}
         >
           <div>Проекты</div>
-        </a>
-        <a
-          href="#contacts"
+        </Link>
+        <Link
+          to="/contacts"
           onClick={(e) => {
             e.preventDefault();
             window.scrollTo({
@@ -71,12 +71,10 @@ const Footer = () => {
           }}
         >
           <div>Контакты</div>
-        </a>
+        </Link>
       </div>
       <div className="border-t-1 border-white py-2 flex gap-x-1 text-sm justify-center mt-11 text-[#D0D0D0]">
-        <a href="" target="_blank">
-          <img src="/footer/copy.svg" />
-        </a>
+        <img src="/footer/copy.svg" />
         2025 | Казахстанско-Британский Технический Университет | All rights
         reserved ®
       </div>

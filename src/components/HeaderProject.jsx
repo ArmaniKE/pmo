@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Lang from "./Lang";
 
 const HeaderProject = () => {
   return (
@@ -7,10 +8,10 @@ const HeaderProject = () => {
       <Link to="/" onClick={() => window.scrollTo(0, 0)}>
         <img className="h-18" src="/header/logo1.svg" />
       </Link>
-      <div className="text-3xl text-[#002F6C] text-center font-semibold">Наши проекты</div>
-      <div className="border-3 mr-[20px] text-lg text-[#002F6C] font-semibold flex justify-center items-center w-18 h-8 rounded-lg border-[#002F6C]">
-        RU
+      <div className="text-3xl text-[#002F6C] text-center font-semibold">
+        Наши проекты
       </div>
+      <Lang />
       <div className="absolute left-[80px] right-[80px] border-b border-[#002F6C] bottom-0" />
     </header>
   );

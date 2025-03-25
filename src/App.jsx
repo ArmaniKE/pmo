@@ -1,6 +1,7 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "./components/Footer";
 import AppRoutes from "./router";
+import Fab from "./components/Fab";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <main className="flex-grow">
           <AppRoutes />
         </main>
+        <Fab/>
         <Footer />
       </div>
     </Router>
