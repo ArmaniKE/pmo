@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projects = () => {
+const ProjectsPage = () => {
   window.scrollTo(0, 0);
   return (
     <div className="px-[80px] mt-[130px] mb-100">
@@ -381,7 +381,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8 mb-[-600px]">
+      <div className="flex justify-between gap-x-10 py-8 mb-[-450px]">
         <div className="p-3 flex flex-col gap-y-6 justify-center">
           <span className="text-xl text-[#002F6C] font-semibold">
             Подготовка требований для сайта kbtu.edu.kz
@@ -421,4 +421,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsPage;

@@ -1,14 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const FooterProject = () => {
   return (
     <footer className="mt-[200px] px-[80px] bg-[#002F6C] text-white">
       <div className="flex flex-row justify-between">
-        <Link
-          to="/"
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        >
+        <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           <img className="h-18" src="/header/logo2.svg" />
         </Link>
         <div className="flex flex-row h-6 space-x-4 mt-[20px] pr-[20px]">
@@ -39,40 +36,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex text-xl font-semibold justify-center items-center space-x-20 mt-[-30px]">
-        <Link
-          to="/about"
-          onClick={(e) => {
-            e.preventDefault();
-            window.scrollTo({
-              top: document.getElementById("about").offsetTop - 170,
-              behavior: "smooth",
-            });
-          }}
-        >
+      <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+      <div>Главная</div>
+        </Link>
+        <Link to="/" onClick={() => window.scrollTo({ top: 693, behavior: "smooth" })}>
           <div>О нас</div>
         </Link>
-        <Link
-          to="/projects"
-          onClick={(e) => {
-            e.preventDefault();
-            window.scrollTo({
-              top: document.getElementById("projects").offsetTop - 170,
-              behavior: "smooth",
-            });
-          }}
-        >
-          <div>Проекты</div>
-        </Link>
-        <Link
-          to="/contacts"
-          onClick={(e) => {
-            e.preventDefault();
-            window.scrollTo({
-              top: document.getElementById("contacts").offsetTop - 170,
-              behavior: "smooth",
-            });
-          }}
-        >
+        <Link to="/" onClick={() => window.scrollTo({ top: 8591, behavior: "smooth" })}>
           <div>Контакты</div>
         </Link>
       </div>
@@ -85,4 +55,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterProject;

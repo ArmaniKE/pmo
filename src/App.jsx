@@ -11,7 +11,6 @@ function App() {
           <AppRoutes />
         </main>
         <Fab/>
-        <Footer />
       </div>
     </Router>
   );
