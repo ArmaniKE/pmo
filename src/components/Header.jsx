@@ -10,9 +10,9 @@ const Header = () => {
         to="/"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
-        <img className="h-18" src="/header/logo1.svg" />
+        <img className="h-15 ml-[20px]" src="/header/logo3.svg" />
       </Link>
-      <div className="flex text-xl justify-center items-center space-x-20">
+      <div className="flex text-[28px] justify-center items-center space-x-20 mr-20">
         <a
           href="#about"
           onClick={(e) => {

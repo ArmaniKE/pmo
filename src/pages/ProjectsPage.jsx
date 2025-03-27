@@ -3,48 +3,48 @@ import React from "react";
 const ProjectsPage = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="px-[80px] mt-[130px] mb-100">
-      <div className="mt-28 flex justify-between items-center gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+    <div className="px-[80px] mt-[130px] mb-130">
+      <div className="mt-40 flex justify-between items-center gap-x-10 py-10">
+        <div className="w-[50%] p-8 flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Аналитическая цифровая платформа «Умная ферма»
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Управление производственными процессами -  создание технологических
             карт, разработка производственных планов, подготовка полей,
             контроль  посевов, полива, защиты растений, мониторинг процессов
             уборки, хранения урожая.
           </span>
-          <span className="text-lg leading-6 text-[#002F6C] font-semibold">
+          <span className="text-2xl leading-8 text-[#002F6C] font-semibold">
             Получено авторское сведетельство и патент на полезную модель по
             проекту.
           </span>
         </div>
         <div className="w-[50%] flex justify-center items-center">
-          <img src="/projects/ferma.svg" className="h-75" />
+          <img src="/projects/ferma.svg" className="h-100" />
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
         <div className="w-[50%] flex justify-center items-center">
-          <img src="/projects/nav.svg" className="h-75" />
+          <img src="/projects/nav.svg" className="h-100" />
         </div>
         <div className="w-[50%]  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Система ориентации (навигации) в здании КБТУ
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Помогает проложить оптимальный маршрут и найти необходимые локации.
           </span>
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8 flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Приложение для автоматического открытия шлагбаума 
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Пользователь может открыть шлагбаум с телефона.​ ПО для Службы
             безопасности - позволяет контролировать время заезда, количество
             заездов и персонифицировать пользователей.​{" "}
@@ -52,28 +52,28 @@ const ProjectsPage = () => {
           <a
             target="_blank"
             href="https://play.google.com/store/apps/details?id=com.web.kbtu"
-            className="text-lg leading-6 text-[#002F6C] font-semibold underline"
+            className="text-2xl leading-8 text-[#002F6C] font-semibold underline"
           >
             https://play.google.com/store/apps/details?id=com.web.kbtu
           </a>
         </div>
         <div className="w-[50%] flex justify-center items-center">
-          <img src="/projects/shlagbaum.svg" className="h-80" />
+          <img src="/projects/shlagbaum.svg" className="h-100" />
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex items-end justify-center">
-          <img src="/projects/nft.svg" className="h-60" />
+        <div className="w-[50%] p-8 flex items-end justify-center">
+          <img src="/projects/nft.svg" className="h-90" />
         </div>
-        <div className="w-[50%] p-3  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8  flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Проект NFT дипломы
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Портал с цифровым NFT дипломом. ​Реализация смарт-контракта на
             основе технологий blockchain исключает риск подделки диплома на
-            100%​. <br />
+            100%​ <br />
             <br />
             Онлайн сервис для проверки диплома выпускника в открытой библиотеке
             NFT дипломов.
@@ -82,11 +82,11 @@ const ProjectsPage = () => {
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-4 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[53%] p-8 flex flex-col gap-y-4 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             Разработка “Цифровой платформы прослеживания семян”{" "}
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Разработана MVP версия платформы. Опубликована по ссылке{" "}
             <a
               target="_blank"
@@ -96,29 +96,29 @@ const ProjectsPage = () => {
               https://kbtu.kaznaru.edu.kz/.
             </a>
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Проведена демонстрация в КИЗ, руководителям ПО и ЗИР, а также акиму
             г. Алматы. Проводятся работы по развитию системы совместно с КазНАИУ
             , ПО и ЗИР.
           </span>
-          <span className="text-lg text-[#002F6C] font-semibold">
+          <span className="text-2xl text-[#002F6C] font-semibold">
             Получено авторское сведетельство по проекту.{" "}
           </span>
         </div>
-        <div className="w-[50%] p-3 flex justify-center">
-          <img src="/projects/seeds.svg" className="" />
+        <div className="w-[50%] p-8 flex justify-center">
+          <img src="/projects/seeds.svg" className="h-90" />
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
         <div className="w-[50%] flex items-end justify-center">
-          <img src="/projects/esg.svg" className="h-65" />
+          <img src="/projects/esg.svg" className="h-90" />
         </div>
-        <div className="w-[50%] p-3  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8  flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Банк технологии КБТУ
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Силами студентов КБТУ разработана MVP версия проекта. <br />
             <br />
             Сайт опубликован по ссылке{" "}
@@ -134,12 +134,12 @@ const ProjectsPage = () => {
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-4 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             Участие в проекте по развитию “Аналитической базы данных” совместно
             с компанией AppStream{" "}
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Разработан инструмент для анализа социально-экономических
             показателей нефтегазовой отрасли, построения социально-экономических
             моделей, медиа мониторинга, для обеспечения стратегического
@@ -153,36 +153,36 @@ const ProjectsPage = () => {
             </a>
           </span>
         </div>
-        <div className="w-[50%] p-3 flex justify-center">
-          <img src="/projects/exia.svg" className="h-60" />
+        <div className="w-[50%] p-8 flex justify-center">
+          <img src="/projects/exia.svg" className="h-90" />
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex items-end justify-center">
-          <img src="/projects/kazmg.svg" className="h-70" />
+        <div className="w-[50%] p-8 flex items-end justify-center">
+          <img src="/projects/kazmg.svg" className="h-90" />
         </div>
-        <div className="w-[50%] p-3  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8  flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Аналитическая Система Диспетчерского центра АО НК «КазМунайГаз»{" "}
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Разработана централизованная информационная и аналитическая
             поддержка управления процессами производства и реализации
             нефтепродуктов.
           </span>
-          <span className="text-lg leading-6 text-[#002F6C] font-semibold">
+          <span className="text-2xl leading-8 text-[#002F6C] font-semibold">
             Получено авторское сведетельство по проекту.
           </span>
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-4 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             Проекте DPG
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Выполнен совместно с GameLab KBTU по заказу детского фонда ООН
             ЮНИСЕФ. <br /> Цель: увеличение количества проектов, способствующих
             устойчивому развитию через создание цифровых общественных благ.{" "}
@@ -208,20 +208,20 @@ const ProjectsPage = () => {
             Для данного курса была разработана игра
           </span>
         </div>
-        <div className="w-[50%] p-3 flex justify-center">
+        <div className="w-[50%] p-8 flex justify-center">
           <img src="/projects/dpg.svg" className="" />
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex items-end justify-center">
+        <div className="w-[50%] p-8 flex items-end justify-center">
           <img src="/projects/unisat.svg" className="" />
         </div>
-        <div className="w-[50%] p-3  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8  flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Unisat Game
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             По заказу детского фонда ООН Юнисеф и КазНУ им.Аль-Фараби GameLab
             KBTU разработал игру для геймификации процесса сборки наноспутника.
             <br />
@@ -238,11 +238,11 @@ const ProjectsPage = () => {
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-4 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             Онлайн курс и хакатон по геймификации в партнёрстве ЮНИСЕФ
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             В 2023 г. GameLab KBTU совместно с Детским Фондом ООН (ЮНИСЕФ) в
             Казахстане запустили программу по поддержке девушек в STEAM
             (science, technology, engineering, arts, math).
@@ -260,7 +260,7 @@ const ProjectsPage = () => {
             </ul>
           </span>
         </div>
-        <div className="w-[50%] p-3 flex justify-center">
+        <div className="w-[50%] p-8 flex justify-center">
           <img src="/projects/hack.svg" className="" />
         </div>
       </div>
@@ -269,11 +269,11 @@ const ProjectsPage = () => {
         <div className="w-[50%] flex justify-center">
           <img src="/projects/skud.svg" className="mt-8" />
         </div>
-        <div className="w-[50%] p-3  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8  flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Модернизация системы СКУД с внедрением биометрии (распознавания лиц)
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Совместно с СБ модернизирована система СКУД, внедрена биометрия
             (распознавание лиц). Усовершенствована пропускная система. 
           </span>
@@ -281,11 +281,11 @@ const ProjectsPage = () => {
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-4 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             Психологический тест Разуваевой
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Подготовлен опросник для студентов. Результаты находятся у психолога
             КБТУ, данный опросник психолог использует для определения
             психологического состояния студентов, при необходимости записывает
@@ -304,19 +304,19 @@ const ProjectsPage = () => {
           </span>
         </div>
         <div className="w-[50%] flex justify-center">
-          <img src="/projects/test.svg" className="h-85" />
+          <img src="/projects/test.svg" className="h-130" />
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
         <div className="w-[50%] flex items-end justify-center">
-          <img src="/projects/qazinn.svg" className="" />
+          <img src="/projects/qazinn.svg" className="h-110" />
         </div>
-        <div className="w-[50%] p-3  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8  flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             Инкубационная программа для QazInnovation
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             Реализована инкубационная программа и выявлены потенциальных
             стартап-идеи с дальнейшей передачей их заказчику. <br />
             Проведены мероприятия для стартапов:
@@ -335,11 +335,11 @@ const ProjectsPage = () => {
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
-        <div className="w-[50%] p-3 flex flex-col gap-y-4 justify-center">
-          <span className="w-[110%] text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
+          <span className="w-[110%] text-3xl text-[#002F6C] font-semibold mb-4">
             Создание практического класса нефтяного полигона в СЭЗ «ПИТ»
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             В 2024 г. запущено учебное месторождение АО «Каспий нефть» в СЭЗ
             «ПИТ». Пробурено 5 скважин, оснащенных оборудованием, применяемым на
             реальных месторождениях. <br /> Имеется подземный резервуар объемом
@@ -351,20 +351,20 @@ const ProjectsPage = () => {
           </span>
         </div>
         <div className="w-[50%]  flex justify-center">
-          <img src="/projects/pit.svg" className="h-75" />
+          <img src="/projects/pit.svg" className="h-100" />
         </div>
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8">
         <div className="w-[50%]  flex items-end justify-center">
-          <img src="/projects/oup.svg" className="h-80" />
+          <img src="/projects/oup.svg" className="h-100" />
         </div>
-        <div className="w-[50%] p-3  flex flex-col gap-y-8 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="w-[50%] p-8  flex flex-col gap-y-8 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold">
             ОУП участвовал с другими подразделениями КБТУ в организации и
             проведении конференций:
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             <ul className="list-disc list-inside">
               <li>
                 ХI Международная научно-практическая конференция «Развитие
@@ -382,11 +382,11 @@ const ProjectsPage = () => {
       </div>
       <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
       <div className="flex justify-between gap-x-10 py-8 mb-[-450px]">
-        <div className="p-3 flex flex-col gap-y-6 justify-center">
-          <span className="text-xl text-[#002F6C] font-semibold">
+        <div className="p-8 flex flex-col gap-y-6 justify-center">
+          <span className="text-3xl text-[#002F6C] font-semibold mb-2">
             Подготовка требований для сайта kbtu.edu.kz
           </span>
-          <span className="text-lg leading-6">
+          <span className="text-2xl leading-8">
             <ul className="list-disc list-inside">
               <li>Проведены исследования потребностей пользователей</li>
               <li>Сформулированы требования к продукту</li>

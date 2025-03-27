@@ -11,9 +11,9 @@ const HeaderProject = () => {
         to="/"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
       >
-        <img className="h-18" src="/header/logo1.svg" />
-      </Link>
-      <div className="text-3xl text-[#002F6C] text-center font-semibold">
+        <img className="h-15 ml-[20px]" src="/header/logo3.svg" />
+        </Link>
+      <div className="text-4xl text-[#002F6C] mr-30 text-center font-semibold">
         {t("Наши проекты")}
       </div>
       <Lang />
