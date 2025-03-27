@@ -6,18 +6,16 @@ const Fab = () => {
   const [messages, setMessages] = useState([
     { name: "Sam", message: "Hi! I'm your AI assistant. How can I help you today?", isUser: false }
   ]);
+
   const [inputMessage, setInputMessage] = useState("");
   const messagesEndRef = useRef(null);
 
-  // Автопрокрутка к новым сообщениям
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
   const handleSendMessage = async () => {
     if (!inputMessage.trim()) return;
-  
-    // Добавляем сообщение пользователя
     setMessages([...messages, { 
       name: "User", 
       message: inputMessage, 
@@ -55,10 +53,9 @@ const Fab = () => {
   };
 
   return (
-    <div className="fixed bottom-5 right-5 flex flex-col items-end gap-2 z-[1000]">
+    <div className="fixed bottom-10 right-10 flex flex-col items-end gap-2 z-[1000]">
       {isOpen && (
         <div className="bg-white rounded-lg shadow-xl w-80 h-96 flex flex-col border border-gray-200">
-          {/* Header */}
           <div className="bg-[#002F6C] text-white p-3 rounded-t-lg flex items-center">
             <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center mr-2">
               <MessageSquare size={16} className="text-[#002F6C]" />
@@ -68,8 +65,6 @@ const Fab = () => {
               <p className="text-xs opacity-80">Online</p>
             </div>
           </div>
-
-          {/* Messages */}
           <div className="flex-1 p-3 overflow-y-auto">
             {messages.map((msg, idx) => (
               <div
@@ -85,8 +80,6 @@ const Fab = () => {
             ))}
             <div ref={messagesEndRef} />
           </div>
-
-          {/* Input */}
           <div className="p-3 border-t border-gray-200 flex">
             <input
               type="text"
@@ -100,18 +93,16 @@ const Fab = () => {
               onClick={handleSendMessage}
               className="bg-[#002F6C] text-white rounded-r-full px-4 flex items-center justify-center"
             >
-              <Send size={18} />
+              <Send size={20} />
             </button>
           </div>
         </div>
       )}
-
-      {/* Floating Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="border-2 border-[#F2F2F2] bg-[#002F6C] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-md transition hover:bg-[#00408F]"
+        className="border-2 border-[#F2F2F2] bg-[#002F6C] text-white w-18 h-18 rounded-full flex items-center justify-center shadow-md transition hover:bg-[#00408F]"
       >
-        {isOpen ? <X size={24} /> : <MessageSquare size={24} />}
+        {isOpen ? <X size={30} /> : <MessageSquare size={30} />}
       </button>
     </div>
   );
