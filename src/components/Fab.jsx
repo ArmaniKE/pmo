@@ -4,7 +4,7 @@ import { MessageSquare, X, Send } from "lucide-react";
 const Fab = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { name: "Sam", message: "Hi! I'm your AI assistant. How can I help you today?", isUser: false }
+    { name: "Aida", message: "Hi! I'm your AI assistant. How can I help you today?", isUser: false }
   ]);
 
   const [inputMessage, setInputMessage] = useState("");
