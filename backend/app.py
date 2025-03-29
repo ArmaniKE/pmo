@@ -58,7 +58,7 @@ def predict():
 sheets_service = GoogleSheetsService()
 
 @app.route('/api/contact', methods=['POST', 'OPTIONS'])
-def handle_contact():  # Убрали async
+def handle_contact():  
     if request.method == 'OPTIONS':
         response = jsonify({"status": "ok"})
         response.headers.add('Access-Control-Allow-Origin', 'http://localhost:5173')
@@ -75,12 +75,10 @@ def handle_contact():  # Убрали async
             data['name'],
             data['email'],
             data['phone'],
-            data.get('theme', 'General Inquiry'),
             data['message'],
-            request.remote_addr
+            # request.remote_addr
         ]
         
-        # Синхронный вызов
         sheets_service.append_to_sheet(contact_data)
         
         response = jsonify({
