@@ -55,7 +55,7 @@ const FooterProject = () => {
         </Link>
         <Link
           to="/"
-          onClick={() => window.scrollTo({ top: 800, behavior: "smooth" })}
+          onClick={() => window.scrollTo({ top: 8268, behavior: "smooth" })}
         >
           <div>{t("Контакты")}</div>
         </Link>

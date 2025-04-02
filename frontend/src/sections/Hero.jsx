@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="text-black text-[24px] font-normal leading-8">
           {t("Мы, команда профессионалов, реализуем внутренние и внешние проекты с максимальной эффективностью, используя современные подходы проектного управления")}
         </div>
-        <button className="group relative flex items-center justify-center w-[260px] px-6 py-4 bg-[#002F6C] hover:bg-[#002F7C] text-white text-2xl font-semibold rounded-xl transition-all duration-300 overflow-hidden cursor-pointer">
+        <a href="https://t.me/joinchat/AAAAAFSrQfr3bYvn18oEeQ" target="_blank" className="group relative flex items-center justify-center w-[260px] px-6 py-4 bg-[#002F6C] hover:bg-[#002F7C] text-white text-2xl font-semibold rounded-xl transition-all duration-300 overflow-hidden cursor-pointer">
           <span className="flex items-center gap-2 transition-all duration-300 group-hover:translate-x-[-10px]">
             {t("Связаться с нами")}
           </span>
@@ -33,7 +33,7 @@ const Hero = () => {
               className="w-4 h-4 transition-all duration-300 ml-50"
             />
           </span>
-        </button>
+        </a>
       </div>
       <div className="w-[50%] p-8 flex justify-end">
         <video
