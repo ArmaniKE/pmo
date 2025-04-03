@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-const languages = [
-  { value: "ru", label: "RU" },
-  { value: "kz", label: "KZ" },
-  { value: "en", label: "EN" },
-];
+const languages = ["RU", "KZ", "EN"];
 
 const Lang = () => {
   const { i18n } = useTranslation();
@@ -13,8 +9,8 @@ const Lang = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang);
-    setSelected(lang.toUpperCase());
+    i18n.changeLanguage(lang.toLowerCase());
+    setSelected(lang);
     setIsOpen(false);
   };
 
@@ -33,17 +29,17 @@ const Lang = () => {
         {selected}
       </div>
       {isOpen && (
-        <div className="absolute left-0 w-full bg-[#F2F2F2] border-l-3 border-r-3 border-b-3 border-[#002F6C] rounded-b-xl">
+        <div className="absolute w-full bg-[#F2F2F2] border-l-3 border-r-3 border-b-3 border-[#002F6C] rounded-b-xl">
           <div className="cursor-pointer text-[#002F6C] text-[26px] font-semibold border-[#002F6C] text-center flex flex-col justify-center content-center">
             {languages
-              .filter((lang) => lang.label !== selected)
+              .filter((lang) => lang !== selected)
               .map((lang) => (
                 <div
-                  key={lang.value}
+                  key={lang}
                   className="hover:bg-[#e7e7e7] h-12 flex justify-center items-center rounded-xl"
-                  onClick={() => changeLanguage(lang.value)}
+                  onClick={() => changeLanguage(lang)}
                 >
-                  {lang.label}
+                  {lang}
                 </div>
               ))}
           </div>
