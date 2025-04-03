@@ -9,8 +9,26 @@ import ProjectsPage from "./pages/ProjectsPage";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<><Header /><Home /><Footer/></>}/>
-      <Route path="/projects" element={<><HeaderProject /><ProjectsPage /><FooterProject/> </> } />
+      <Route
+        path="/"
+        element={
+          <>
+            <Header />
+            <Home />
+            <Footer />
+          </>
+        }
+      />
+      <Route
+        path="/projects"
+        element={
+          <>
+            <HeaderProject />
+            <ProjectsPage />
+            <FooterProject />
+          </>
+        }
+      />
     </Routes>
   );
 }

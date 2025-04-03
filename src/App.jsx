@@ -5,12 +5,8 @@ import Fab from "./components/Fab";
 function App() {
   return (
     <Router>
-      <div className="flex flex-col min-h-screen">
-        <main className="flex-grow">
-          <AppRoutes />
-        </main>
-        <Fab/>
-      </div>
+      <AppRoutes />
+      <Fab />
     </Router>
   );
 }
