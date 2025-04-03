@@ -13,42 +13,39 @@ const Header = () => {
         <img className="h-15 ml-[20px]" src="/header/logo3.svg" />
       </Link>
       <div className="flex text-[28px] justify-center items-center space-x-20 mr-20">
-        <a
-          href="#about"
-          onClick={(e) => {
-            e.preventDefault();
+        <div
+          onClick={() => {
             window.scrollTo({
               top: document.getElementById("about").offsetTop - 170,
               behavior: "smooth",
             });
           }}
+          className="cursor-pointer"
         >
-          <div>{t("О нас")}</div>
-        </a>
-        <a
-          href="#projects"
-          onClick={(e) => {
-            e.preventDefault();
+          {t("О нас")}
+        </div>
+        <div
+          onClick={() => {
             window.scrollTo({
               top: document.getElementById("projects").offsetTop - 170,
               behavior: "smooth",
             });
           }}
+          className="cursor-pointer"
         >
-          <div>{t("Проекты")}</div>
-        </a>
-        <a
-          href="#contacts"
-          onClick={(e) => {
-            e.preventDefault();
+          {t("Проекты")}
+        </div>
+        <div
+          onClick={() => {
             window.scrollTo({
               top: document.getElementById("contacts").offsetTop - 170,
               behavior: "smooth",
             });
           }}
+          className="cursor-pointer"
         >
-          <div>{t("Контакты")}</div>
-        </a>
+          {t("Контакты")}
+        </div>
       </div>
       <Lang />
       <div className="absolute left-[80px] right-[80px] border-b border-[#002F6C] bottom-0" />

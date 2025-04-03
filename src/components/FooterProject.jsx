@@ -45,19 +45,19 @@ const FooterProject = () => {
           to="/"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          <div>{t("Главная")}</div>
+          {t("Главная")}
         </Link>
         <Link
           to="/"
           onClick={() => window.scrollTo({ top: 652, behavior: "smooth" })}
         >
-          <div>{t("О нас")}</div>
+          {t("О нас")}
         </Link>
         <Link
           to="/"
           onClick={() => window.scrollTo({ top: 8268, behavior: "smooth" })}
         >
-          <div>{t("Контакты")}</div>
+          {t("Контакты")}
         </Link>
       </div>
       <div className="border-t-1 border-white py-4 flex gap-x-2 text-lg justify-center mt-15 text-[#D0D0D0]">
