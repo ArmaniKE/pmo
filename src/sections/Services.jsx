@@ -38,7 +38,7 @@ const Services = () => {
         <div className="w-[50%] flex flex-col justify-between gap-y-8">
           <div className="h-[148px] bg-[#002F6C] text-white rounded-3xl flex justify-center items-center p-[40px] text-center font-semibold text-[26px] shadow-xl">
             <img src="/services/2.svg" className="w-13 mr-6" />
-            <div className="">{t("Реализация внешних проектов под ключ")}</div>
+            <div>{t("Реализация внешних проектов под ключ")}</div>
           </div>
           <div className="h-[148px] gap-x-3 bg-white rounded-3xl flex justify-center items-center p-[40px] text-center font-semibold text-[26px] shadow-xl">
             <div className="w-[80%]">
@@ -59,7 +59,7 @@ const Services = () => {
           className="absolute mt-17 mr-165 w-58"
           src="/services/vector-left.svg"
         />
-        <div className="h-fit text-[#002F6C] text-5xl font-semibold">
+        <div className="text-[#002F6C] text-5xl font-semibold">
           {t("Подходы к работе")}
         </div>
         <img

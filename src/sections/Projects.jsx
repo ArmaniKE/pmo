@@ -19,7 +19,7 @@ const Projects = () => {
           {t("Аналитическая цифровая платформа «Умная ферма»")}
         </div>
         <img
-          className="w-[8%] h-fit mt-[3.5%]"
+          className="w-30 h-fit mt-17"
           src="/projects/arrow-right.svg"
         />
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl py-8 flex justify-center">
@@ -31,7 +31,7 @@ const Projects = () => {
           <img src="/projects/nav2.svg" className="h-85" />
         </div>
         <img
-          className="w-[8%] h-fit mb-[3.5%] rotate-180"
+          className="w-30 h-fit mb-17 rotate-180"
           src="/projects/arrow-right.svg"
         />
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl py-6 px-13 text-center flex items-center text-[#002F6C] text-[38px] font-semibold">
@@ -43,7 +43,7 @@ const Projects = () => {
           {t("Разработка “Цифровой платформы прослеживания семян”")}
         </div>
         <img
-          className="w-[8%] h-fit mt-[3.5%]"
+          className="w-30 h-fit mt-17"
           src="/projects/arrow-right.svg"
         />
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl px-4 py-8 flex justify-center">
@@ -55,7 +55,7 @@ const Projects = () => {
           <img src="/projects/hack.svg" className="mt-10 px-8 py-4" />
         </div>
         <img
-          className="w-[8%] h-fit mb-[3.5%] rotate-180"
+          className="w-30 h-fit mb-17 rotate-180"
           src="/projects/arrow-right.svg"
         />
         <div className="border-4 w-[50%] border-[#002F6C] rounded-2xl py-6 text-center flex items-center text-[#002F6C] text-[38px] font-semibold">
@@ -63,7 +63,7 @@ const Projects = () => {
         </div>
       </div>
       <button
-        className="border-4 border-[#002F6C] hover:bg-[#002F6C] hover:text-white rounded-2xl py-5 px-20 text-[#002F6C] text-3xl font-semibold cursor-pointer transition-colors duration-300"
+        className="border-4 border-[#002F6C] hover:bg-[#002F6C] hover:text-white rounded-2xl py-5 px-20 text-[#002F6C] text-3xl font-semibold cursor-pointer transition duration-300"
         onClick={() => navigate("/projects")}
       >
         {t("Подробнее")}

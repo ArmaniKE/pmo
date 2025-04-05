@@ -8,7 +8,7 @@ const ProjectsPage = () => {
   }, []);
   return (
     <div className="px-[80px] mt-[130px] mb-130">
-      <div className="mt-40 flex justify-between items-center gap-x-10 py-10">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10 mt-40">
         <div className="w-[50%] p-8 flex flex-col gap-y-8 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold">
             {t("Аналитическая цифровая платформа «Умная ферма»")}
@@ -28,8 +28,7 @@ const ProjectsPage = () => {
           <img src="/projects/ferma.svg" className="h-100" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] flex justify-center items-center">
           <img src="/projects/nav.svg" className="h-100" />
         </div>
@@ -44,8 +43,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex flex-col gap-y-8 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold">
             {t("Приложение для автоматического открытия шлагбаума")}
@@ -67,8 +65,7 @@ const ProjectsPage = () => {
           <img src="/projects/shlagbaum.svg" className="h-100" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex items-end justify-center">
           <img src="/projects/nft.svg" className="h-90" />
         </div>
@@ -83,8 +80,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[53%] p-8 flex flex-col gap-y-4 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             {t("Разработка “Цифровой платформы прослеживания семян”")}
@@ -112,8 +108,7 @@ const ProjectsPage = () => {
           <img src="/projects/seeds.svg" className="h-90" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] flex items-end justify-center">
           <img src="/projects/esg.svg" className="h-90" />
         </div>
@@ -135,8 +130,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             {t(
@@ -160,8 +154,7 @@ const ProjectsPage = () => {
           <img src="/projects/exia.svg" className="h-90" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex items-end justify-center">
           <img src="/projects/kazmg.svg" className="h-90" />
         </div>
@@ -181,8 +174,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             {t("Проекте DPG")}
@@ -214,8 +206,7 @@ const ProjectsPage = () => {
           <img src="/projects/dpg.svg" className="" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex items-end justify-center">
           <img src="/projects/unisat.svg" className="" />
         </div>
@@ -239,8 +230,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             {t("Онлайн курс и хакатон по геймификации в партнёрстве ЮНИСЕФ")}
@@ -268,8 +258,7 @@ const ProjectsPage = () => {
           <img src="/projects/hack.svg" className="" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] flex justify-center">
           <img src="/projects/skud.svg" className="mt-8" />
         </div>
@@ -286,8 +275,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold mb-4">
             {t("Психологический тест Разуваевой")}
@@ -313,8 +301,7 @@ const ProjectsPage = () => {
           <img src="/projects/test.svg" className="h-130" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] flex items-end justify-center">
           <img src="/projects/qazinn.svg" className="h-110" />
         </div>
@@ -340,8 +327,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] p-8 flex flex-col gap-y-4 justify-center">
           <span className="w-[110%] text-3xl text-[#002F6C] font-semibold mb-4">
             {t("Создание практического класса нефтяного полигона в СЭЗ «ПИТ»")}
@@ -356,8 +342,7 @@ const ProjectsPage = () => {
           <img src="/projects/pit.svg" className="h-100" />
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8">
+      <div className="flex justify-between items-center gap-x-10 py-8 border-b border-[#002F6C] pb-15 mb-10">
         <div className="w-[50%] flex items-end justify-center">
           <img src="/projects/oup.svg" className="h-100" />
         </div>
@@ -385,8 +370,7 @@ const ProjectsPage = () => {
           </span>
         </div>
       </div>
-      <div className="border-t border-[#002F6C] mt-8 left-[80px] right-[80px] mb-8" />
-      <div className="flex justify-between gap-x-10 py-8 mb-[-450px]">
+      <div className="flex justify-between items-center gap-x-10 py-8 mb-[-450px]">
         <div className="p-8 flex flex-col gap-y-6 justify-center">
           <span className="text-3xl text-[#002F6C] font-semibold mb-2">
             {t("Подготовка требований для сайта kbtu.edu.kz")}

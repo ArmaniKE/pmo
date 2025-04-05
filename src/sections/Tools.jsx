@@ -13,10 +13,10 @@ const Tools = () => {
         <div className="border-t-3 border-[#002F6C] flex-grow" />
       </div>
       <div className="border-3 border-[#002F6C] rounded-2xl p-15 ml-10 mr-10">
-        <div className="text-3xl font-semibold text-[#002F6C]">
-          <span className="ml-[3%]">{t("Инструмент")}</span>
-          <span className="ml-[18%]">{t("Описание")}</span>
-          <span className="ml-[33%]">{t("Преимущества")}</span>
+        <div className="text-3xl flex justify-between font-semibold text-[#002F6C]">
+          <span className="ml-10">{t("Инструмент")}</span>
+          <span className="mr-60">{t("Описание")}</span>
+          <span className="mr-40">{t("Преимущества")}</span>
         </div>
         <div className="mt-10">
           <div className="items-center py-6 px-3 flex flex-row justify-between text-[26px] font-semibold text-[#002F6C]">
