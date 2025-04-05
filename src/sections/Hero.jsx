@@ -3,10 +3,10 @@ import { useTranslation } from "react-i18next";
 
 const Hero = () => {
   const videoRef = useRef(null);
-  const mouseEnter = () => {
+  const playVid = () => {
     videoRef.current.play();
   };
-  const mouseLeave = () => {
+  const stopVid = () => {
     videoRef.current.pause();
   };
   const { t } = useTranslation();
@@ -23,14 +23,14 @@ const Hero = () => {
         <div className="text-black text-[24px] font-normal leading-8">
           {t("Мы, команда профессионалов, реализуем внутренние и внешние проекты с максимальной эффективностью, используя современные подходы проектного управления")}
         </div>
-        <a href="https://t.me/joinchat/AAAAAFSrQfr3bYvn18oEeQ" target="_blank" className="group relative flex items-center justify-center w-[260px] px-6 py-4 bg-[#002F6C] hover:bg-[#002F7C] text-white text-2xl font-semibold rounded-xl transition-all duration-300 overflow-hidden cursor-pointer">
-          <span className="flex items-center gap-2 transition-all duration-300 group-hover:translate-x-[-10px]">
+        <a href="https://t.me/joinchat/AAAAAFSrQfr3bYvn18oEeQ" target="_blank" className="group relative flex items-center justify-center w-[260px] px-6 py-4 bg-[#002F6C] hover:bg-[#002F7C] text-white text-2xl font-semibold rounded-xl transition-all duration-300 cursor-pointer">
+          <span className="transition-all duration-300 group-hover:translate-x-[-10px]">
             {t("Связаться с нами")}
           </span>
-          <span className="absolute flex items-center gap-2 opacity-0 translate-x-2 scale-100 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0 group-hover:scale-100">
+          <span className="absolute opacity-0 translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
             <img
               src="/hero/arrow.svg" 
-              className="w-4 h-4 transition-all duration-300 ml-50"
+              className="w-4 h-4 ml-50"
             />
           </span>
         </a>
@@ -38,11 +38,9 @@ const Hero = () => {
       <div className="w-[50%] p-8 flex justify-end">
         <video
           ref={videoRef}
-          onMouseEnter={mouseEnter}
-          onMouseLeave={mouseLeave}
-          autoPlay
+          onMouseEnter={playVid}
+          onMouseLeave={stopVid}
           loop
-          playsInline
           muted
           className="rounded-3xl shadow-xl w-190"
         >
